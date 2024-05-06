@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: auto;
+  position: relative;
+  background-color: #111825;
+}
+
+.toggle__dot {
+  transition: transform 0.3s ease-in-out;
+}
